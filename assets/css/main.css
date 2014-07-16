@@ -206,16 +206,239 @@ a:after {
 	vertical-align: middle;
 }
 
-
 #skillswrap {
 	background: #8C8168;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: white;
+} 
+
+#html5 {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/HTML5_Logo_256.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 }
 
-#skillswrap h5, p {
-	color: white;
+#css {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/CSS3.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain
+}
+
+#javascript {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/js-logo.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+#jquery {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/jquery-logo.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+#angularjs {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/AngularJS-medium.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+#rubyonrails {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/Ruby_on_Rails-logo.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+#mongodb {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/MongoDB_Logo.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+#postgresql {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #fff;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	box-shadow: 1px 1px 2px #e6e6e6;
+	cursor: default;
+	background: url(../img/PostgreSQL_logo.3colors.120x120.png) no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+.view .mask, .view .content {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.view img {
+	display: block;
+	position: relative;
+}
+
+.view h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	margin: 20px 0 0 0;
+}
+
+.view p {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 18px;
+	position: relative;
+	color: #fff;
+	padding: 10px 20px 20px;
+	text-align: center;
+}
+
+.view-first img {
+	transition: all 0.2s linear;
+}
+
+.view-first .mask {
+	opacity: 0;
+	background-color: rgba(84,77,62,0.7);
+	transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+	transform: translateY(-100px);
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+	transform: translateY(100px);
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.view-first a.info {
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img {
+	transform: scale(1.1);
+}
+
+.view-first:hover .mask {
+	opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.view-first:hover p {
+	transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+	transition-delay: 0.2s;
 }
 
 #footwrap {
