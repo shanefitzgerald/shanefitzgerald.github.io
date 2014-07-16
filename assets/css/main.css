@@ -217,11 +217,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/HTML5_Logo_256.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -235,11 +233,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/CSS3.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -253,11 +249,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/js-logo.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -271,11 +265,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/jquery-logo.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -289,11 +281,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/AngularJS-medium.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -307,11 +297,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/Ruby_on_Rails-logo.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -325,11 +313,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/MongoDB_Logo.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -343,11 +329,9 @@ a:after {
 	height: 200px;
 	margin: 5px;
 	float: left;
-	border: 1px solid #fff;
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	box-shadow: 1px 1px 2px #e6e6e6;
 	cursor: default;
 	background: url(../img/PostgreSQL_logo.3colors.120x120.png) no-repeat center center;
 	-webkit-background-size: contain;
@@ -359,6 +343,7 @@ a:after {
 .view .mask, .view .content {
 	width: 200px;
 	height: 200px;
+	border-radius: 10%;
 	position: absolute;
 	overflow: hidden;
 	top: 0;
@@ -385,6 +370,16 @@ a:after {
 	font-family: Georgia, serif;
 	font-style: italic;
 	font-size: 18px;
+	position: relative;
+	color: #fff;
+	padding: 10px 20px 20px;
+	text-align: center;
+}
+
+.view span {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 14px;
 	position: relative;
 	color: #fff;
 	padding: 10px 20px 20px;
@@ -418,6 +413,11 @@ a:after {
 	transition: all 0.2s ease-in-out;
 }
 
+.view-first span{
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
 .view-first:hover img {
 	transform: scale(1.1);
 }
@@ -439,6 +439,11 @@ a:after {
 
 .view-first:hover a.info {
 	transition-delay: 0.2s;
+}
+
+.view-first:hover span {
+	opacity: 1;
+	transition-delay: 0.8s;
 }
 
 #footwrap {
@@ -507,4 +512,8 @@ a:after {
 
 sm {
 	font-size: 12px;
+}
+
+.img-responsive {
+	background-size: cover;
 }
