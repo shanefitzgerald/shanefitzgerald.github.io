@@ -513,7 +513,3 @@ a:after {
 sm {
 	font-size: 12px;
 }
-
-.img-responsive {
-	background-size: cover;
-}
